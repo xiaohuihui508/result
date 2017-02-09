@@ -15,6 +15,11 @@
 		04D6CF0D1E49D2DA00C9D057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D6CF0B1E49D2DA00C9D057 /* LaunchScreen.storyboard */; };
 		04D6CF181E49D2DA00C9D057 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6CF171E49D2DA00C9D057 /* _______Tests.m */; };
 		04D6CF231E49D2DA00C9D057 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6CF221E49D2DA00C9D057 /* _______UITests.m */; };
+		04D6CF331E49D38900C9D057 /* CPKenburnsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6CF321E49D38900C9D057 /* CPKenburnsView.m */; };
+		04D6CF361E49DC3500C9D057 /* SJAvatarBrower.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6CF351E49DC3500C9D057 /* SJAvatarBrower.m */; };
+		04D6CF3A1E49DCB700C9D057 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D6CF371E49DCB700C9D057 /* 1.jpg */; };
+		04D6CF3B1E49DCB700C9D057 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D6CF381E49DCB700C9D057 /* 2.jpg */; };
+		04D6CF3C1E49DCB700C9D057 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D6CF391E49DCB700C9D057 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		04D6CF1E1E49D2DA00C9D057 /* 个人中心的效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人中心的效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D6CF221E49D2DA00C9D057 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		04D6CF241E49D2DA00C9D057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D6CF301E49D30E00C9D057 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04D6CF311E49D38900C9D057 /* CPKenburnsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPKenburnsView.h; sourceTree = "<group>"; };
+		04D6CF321E49D38900C9D057 /* CPKenburnsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPKenburnsView.m; sourceTree = "<group>"; };
+		04D6CF341E49DC3500C9D057 /* SJAvatarBrower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAvatarBrower.h; sourceTree = "<group>"; };
+		04D6CF351E49DC3500C9D057 /* SJAvatarBrower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAvatarBrower.m; sourceTree = "<group>"; };
+		04D6CF371E49DCB700C9D057 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		04D6CF381E49DCB700C9D057 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		04D6CF391E49DCB700C9D057 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +118,10 @@
 				04D6CF011E49D2DA00C9D057 /* AppDelegate.m */,
 				04D6CF031E49D2DA00C9D057 /* ViewController.h */,
 				04D6CF041E49D2DA00C9D057 /* ViewController.m */,
-				04D6CF061E49D2DA00C9D057 /* Main.storyboard */,
-				04D6CF091E49D2DA00C9D057 /* Assets.xcassets */,
-				04D6CF0B1E49D2DA00C9D057 /* LaunchScreen.storyboard */,
-				04D6CF0E1E49D2DA00C9D057 /* Info.plist */,
+				04D6CF311E49D38900C9D057 /* CPKenburnsView.h */,
+				04D6CF321E49D38900C9D057 /* CPKenburnsView.m */,
+				04D6CF341E49DC3500C9D057 /* SJAvatarBrower.h */,
+				04D6CF351E49DC3500C9D057 /* SJAvatarBrower.m */,
 				04D6CEFD1E49D2DA00C9D057 /* Supporting Files */,
 			);
 			path = "个人中心的效果";
@@ -117,7 +130,15 @@
 		04D6CEFD1E49D2DA00C9D057 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04D6CF371E49DCB700C9D057 /* 1.jpg */,
+				04D6CF381E49DCB700C9D057 /* 2.jpg */,
+				04D6CF391E49DCB700C9D057 /* background@2x.png */,
+				04D6CF061E49D2DA00C9D057 /* Main.storyboard */,
+				04D6CF091E49D2DA00C9D057 /* Assets.xcassets */,
+				04D6CF0B1E49D2DA00C9D057 /* LaunchScreen.storyboard */,
+				04D6CF0E1E49D2DA00C9D057 /* Info.plist */,
 				04D6CEFE1E49D2DA00C9D057 /* main.m */,
+				04D6CF301E49D30E00C9D057 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D6CF0D1E49D2DA00C9D057 /* LaunchScreen.storyboard in Resources */,
+				04D6CF3A1E49DCB700C9D057 /* 1.jpg in Resources */,
+				04D6CF3B1E49DCB700C9D057 /* 2.jpg in Resources */,
 				04D6CF0A1E49D2DA00C9D057 /* Assets.xcassets in Resources */,
+				04D6CF3C1E49DCB700C9D057 /* background@2x.png in Resources */,
 				04D6CF081E49D2DA00C9D057 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D6CF051E49D2DA00C9D057 /* ViewController.m in Sources */,
+				04D6CF331E49D38900C9D057 /* CPKenburnsView.m in Sources */,
 				04D6CF021E49D2DA00C9D057 /* AppDelegate.m in Sources */,
 				04D6CEFF1E49D2DA00C9D057 /* main.m in Sources */,
+				04D6CF361E49DC3500C9D057 /* SJAvatarBrower.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7QB8XUHZX;
+				GCC_PREFIX_HEADER = "$SRCROOT/个人中心的效果/PrefixHeader.pch";
 				INFOPLIST_FILE = "个人中心的效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PangXieYunGou.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E7QB8XUHZX;
+				GCC_PREFIX_HEADER = "$SRCROOT/个人中心的效果/PrefixHeader.pch";
 				INFOPLIST_FILE = "个人中心的效果/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PangXieYunGou.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
